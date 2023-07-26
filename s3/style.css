@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Urbanist', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: #fdecd2;
+}
+
+.announcement {
+  text-align: center;
+  padding: 5px;
+  background-color: teal;
+  color: white;
+}
+.header {
+  text-align: center;
+  padding: 18px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.cta {
+  padding-top: 150px;
+}
+
+.menu {
+  padding: 10px;
+  font-size: 20px;
+}
+
+ul {
+  padding: 10px;
+}
+
+.ul1 {
+  font-style: italic;
+}
+
+p1 {
+  font-size: x-large;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+.footer-container1 {
+  flex: 50%;
+  justify-content: right;
+  text-align: center;
+  justify-items: right;
+  vertical-align: center;
+}
+
+.footer-container2 {
+  flex: 50%;
+  justify-content: right;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  height: 50%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
